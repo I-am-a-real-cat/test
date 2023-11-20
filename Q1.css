@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium';
+    overflow-x: hidden;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("restaurant-interior.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: sticky;
+}
+
+header{ font-size: 22px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    margin-top: 50px;
+    
+    width: 100vw;
+   
+
+    border: 0;
+   
+    
+    
+}
+.c1{
+justify-content:start;
+align-items: center;
+display: flex;
+flex-direction: column;
+flex: 50% 0 0;
+}
+
+.c1 img {border-radius: 100%;
+    padding: 0 10vw 0 10vw;   
+}
+
+.c12 {margin-top: 20px;
+    
+}
+.c2{
+    justify-content:start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 50% 0 0;
+    }
+    
+    .c2 img {border-radius:100%;
+        padding: 0 10vw 0 10vw;   
+    }
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    margin-top: 50px;
+    width: 100vw;
+    min-height: 10vh;
+   
+
+}
+
+.b1{
+    justify-content:start;
+    padding: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 33% 0 0;
+    
+    }
+
+.b1 img{
+  
+    border-radius: 20px;
+
+}
+
+.b12{
+    padding: 20px  10px 10px 10px;
+    font-size: 22px;
+}
+
+.b1 h1{
+    text-align: center;
+    
+}
+
+.bb{
+    padding: 10px;
+    background-color:RGB(64, 224, 208) ;
+    border-radius: 15px;
+    
+}
+
+.bb a{
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+.bb:hover{
+   background-color:RGB(4, 119, 169);
+   color: white;
+   cursor: pointer;
+}
